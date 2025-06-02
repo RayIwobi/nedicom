@@ -28,7 +28,7 @@ function Home() {
   
   //Item display functionality
   useEffect(() => {
-    axios.get('https://nedifoods-ofgbne3v6-raymonds-projects-8d7db693.vercel.app/getitems' , { withCredentials: true })
+    axios.get('https://nedifoods-api.vercel.app/getitems' , { withCredentials: true })
     //axios.get('https://nedifoods-api.vercel.app/getitems' , { withCredentials: true })
     //axios.get('http://localhost:4000/getitems')
     .then(res => setProduct(res.data))
@@ -36,7 +36,7 @@ function Home() {
   }, [])
 
   useEffect(() => {
-    axios.get('https://nedifoods-ofgbne3v6-raymonds-projects-8d7db693.vercel.app/category/vegetables-and-greens' , { withCredentials: true })
+    axios.get('https://nedifoods-api.vercel.app/category/vegetables-and-greens' , { withCredentials: true })
     //axios.get('https://nedifoods-api.vercel.app/category/vegetables-and-greens' , { withCredentials: true })
     //axios.get('http://localhost:4000/category/vegetables-and-greens')
     .then(res => setVeggiescategory(res.data))
@@ -44,7 +44,7 @@ function Home() {
   },[])
 
   useEffect(() => {
-    axios.get('https://nedifoods-ofgbne3v6-raymonds-projects-8d7db693.vercel.app/category/spices-and-seasonings' , { withCredentials: true })
+    axios.get('https://nedifoods-api.vercel.app/category/spices-and-seasonings' , { withCredentials: true })
     //axios.get('https://nedifoods-api.vercel.app/category/spices-and-seasonings' , { withCredentials: true })
     //axios.get('http://localhost:4000/category/spices-and-seasonings')
     .then(res => setSpicesSeason(res.data))
