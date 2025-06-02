@@ -1,0 +1,166 @@
+
+
+.sign-up-container{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.dashboard-container{
+    padding-top: 40px;
+}
+
+.sign-up-form{
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #FC6A03;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #FC6A03;
+}
+
+.submit-button{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: black;
+    border:#FC6A03 2px solid;
+}
+
+.bottom-link{
+    display: flex;
+    align-items: center;   
+}
+.bottom-link a{
+    color: blue;
+    font-size: 15px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+h5 a{
+    text-decoration: none;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.forgotpassword{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+.forgotpassword:hover{
+    color: black;
+}
+
+.homelink{
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.homelink a{
+    text-decoration: none;
+    color: blue;
+}
+
+.dashboard-container{
+    margin: 40px;
+}
+
+.user-details div{
+    margin-bottom: 15px;
+}
+
+.user-details button{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.dashboard-container h3{
+    font-size: 20px;
+}
+
+.dashboard-container h2{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+}
+
+.dashboard-container a{
+    text-decoration: none;
+}
+
+.dashboard-title{
+    display: block;
+    text-align: center;
+}
+
+.update-form{
+    width: 300px;
+}
+@media screen and (max-width:600px){
+    .dashboard-container{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .update-form input{
+        width: 300px;
+    }
+}
+
+.update-form textarea{
+    width: 290px;
+    height: 40px;
+    padding-left: 5px;
+    border: 2px solid #FC6A03;
+    border-radius: 7px;
+}
+
+.order-details{
+    margin-top: 40px;
+}
+
+.hr{
+    margin-bottom: 30px;
+}
+
+#resetpassword-container{
+    margin-top: -120px;
+}

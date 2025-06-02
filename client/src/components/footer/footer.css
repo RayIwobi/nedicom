@@ -1,0 +1,195 @@
+/* Footer section */
+
+.footer-container{
+    width: 100%;
+    background-color: #FC6A03;
+    bottom: 0;
+    position: relative;
+    z-index: 999;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-name{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-logo-name img{
+    width: 100px;
+    margin-right: 5px;
+}
+.footer-logo-name h2{
+    color: white;
+    font-size: 25px; 
+    font-family: "Playfair Display", serif;
+}
+
+.footer-inner-second{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 20px;
+    width: 250px;
+}
+.footer-aboutus{
+    width: 250px;
+    color: white;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.footer-about-header{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer-cardarea{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.footer-cardarea h2{
+    font-size: 19px;
+    text-align: center;
+    margin-top: -27px;
+}
+
+.footer-cards img{
+    width: 50px;
+    height: 30px;
+    margin: 7px;
+    border-radius: 3px;
+}
+
+.under-trademark{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.under-trademark h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.social-section{
+    margin-left: 20px;
+}
+
+.social-section h3{
+    color: black;
+    font-size: 19px;
+    margin-top: -75px;
+}
+.socialmedia{
+    display: flex;
+
+}
+/* FOOTER MOBILE */
+
+@media screen and (max-width:600px){
+   
+    .footer-container{
+        width: 100%;
+        display: block;
+    }
+  
+    .footer-logo-name{
+        display: block;
+        padding: 20px;
+    }
+    
+    .footer-logo-name img{
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .footer-logo-name h2{
+        font-size: 30px;
+        color: white;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .footer-inner-second{
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+   .footer-aboutus{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+   }
+
+   .footer-about-content{
+    text-align: center;
+   }
+
+    .footer-about-header{
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .footer-cardarea{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+   .footer-cards img{
+        width: 30px;
+        height: 20px;
+        margin: 5px;
+   }
+
+    .name-trademark{
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 13px;
+        color: white;
+        margin-bottom: 20px;
+    }
+   
+
+    .social-section h3{
+        font-size: 19px;
+        color: black;
+        text-align: center;
+    }
+    .socialmedia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobilebase{
+        color: white;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .useful-links{
+        color: black;
+    }
+}
+
+
