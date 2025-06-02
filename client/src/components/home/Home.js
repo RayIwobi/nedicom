@@ -28,7 +28,7 @@ function Home() {
   
   //Item display functionality
   useEffect(() => {
-    axios.get('https://nedifoods-api.vercel.app/getitems' , { withCredentials: true })
+    axios.get('https://nedifoods-9dr3n4ie2-raymonds-projects-8d7db693.vercel.app/getitems' , { withCredentials: true })
     //axios.get('https://nedifoods-api.vercel.app/getitems' , { withCredentials: true })
     //axios.get('http://localhost:4000/getitems')
     .then(res => setProduct(res.data))
